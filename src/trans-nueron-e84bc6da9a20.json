@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "trans-nueron",
+  "private_key_id": "e84bc6da9a20f28d6943d6d1b46f8c9f83388b56",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCOqFsPwIZVYPo\n6nh0FrMFgGeNBCeXYGit3xr9N2MWEe5NWvgtklB/NH+5UNBHZSjcrWYSWxuI2CF+\nfo315/09dUbhKX8qC+uv6Tc8WoHR+t0ZED+dVTymtAdVzyg7TqTdJN4fsbIiWgXC\nP2b+mjoeLmlLDQLorkGfxPv3Thg2TmW5hczOjRG0V1Ia/XoCDHwqNK6/ag0X0IKc\nYb+NaUWF0bKj+WGDQsjL8xgQ5o7+mGBuXkMyn+6nM2QO11Qp1pIcCSApmXkcKvoO\nwkuLLbadtNmlgcj88etHJWf9xa8nBeHmiwAL0KEXobnmMEBlYSRHPNthoOTi95w4\nRufKH6QTAgMBAAECggEAGNQZNIGCyYLxVNc8RKLDicLV+eR7vHxvhTfNocGbIgQd\ncWKynP4PhONM0dSvJfacLZw2PccgaEgwp+nnncq6cvPIoW8w4/VteymV4lozhDMh\ntlrUYaQMF8dQX2YW34CjJJMvmIpE7407H+SuTCz3nEoUiFUxIlYRlNSVMmeXmBaz\ny7Z0+RdK6kzwFw/UvXCUF17efMN+CU+fDJSTGmJ08JygNXrmK8OF0fgyfTVd6S0y\n06cnX+WeLkE0hJOIw64MTR6TS/SrBbuh3T3U+6H3HsQxawDXjh9RrH8Fphqw1I+P\nP8zrt/nQLIIPirYHmqxfzywPzckyAHv7aMkS1Y0D8QKBgQDj0WBeajqrmP1P7rUt\ntass2Tjl3cL9qVVr+tM2+d9ctE+dODYpsCAmjLebshs6ivd7HMP6+pBsd3dMNd85\nvDJCqUY6AfvkQeM1YAvqb0FBl9UtV5LJCyTlFuuk+42uFjyALY0WrU+GKmlwjeJ2\nrd4Q6lgkrWvX7YmzueGPrYdNWwKBgQDaQYyvKCqiHRuozXxIREXNVjXG4Doo4bku\nJ3X0YlrM4wVIS7wuHicop3P7kYjAdKIwdC8gZBLeE5mUlFiC/91pnuZ0hqZ20qQv\nsDLacD5Ow1cyq25wEi93UVGFVGhrWMnV8SF+webOUcwu1pcoKzP/pZVTgkv5pWEo\npq0ay14pqQKBgQDQ+wIh2eSUALVuG5ULpzis3V66TiFOu4TmlqImLjTdP3JA0I2u\n1CfJ9Q+AvXMI0u2Oe6azliHhvf0rZcetmJuqVsla8PL2QhKApeiIVyJPX05oV4sI\n7TYdCFeFclRXO4KoOiDQio8GjeVHIIB7SacJcU8F5ielXfsRaRQmzpHtPQKBgEMX\nd1m4rTJcZE5FrHjCk/qFD87syrQaf0RS2Q2g1my5NLx+m4BJwJvcreidWj5fHCRs\n8rewS6R8ve9QksziPnvjXtBfO/i208XdEiTX8C9iGQH4dOB6lqDFHJwx0E9/Ybwk\nfblrfbnapzuWt6yfa0Kg8gBTw2sgjXdjlT7xWSbRAoGBAIDKfOWklOpu5osr5u0K\nzidhez5QV72c3B1EHQRQ7CWgVBiLDEQVrBr9nIkUEfa0jBzThMS7vjBHNUpUQgW0\nSZakJyUuVSdcpEPPHJeUW+mrHKDYKWl+g31vna73Wm1MJWHm6HfPnfAnPl4pjXx8\nW8BeCyUxJy17mNBIbNmN0iQk\n-----END PRIVATE KEY-----\n",
+  "client_email": "database@trans-nueron.iam.gserviceaccount.com",
+  "client_id": "105888539028970365006",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/database%40trans-nueron.iam.gserviceaccount.com"
+}

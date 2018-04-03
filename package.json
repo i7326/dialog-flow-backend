@@ -12,6 +12,7 @@
   "author": "i7326",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/firestore": "^0.13.0",
     "@types/cookie-parser": "1.4.1",
     "api-ai-javascript": "^2.0.0-beta.21",
     "apiai": "^4.0.3",
