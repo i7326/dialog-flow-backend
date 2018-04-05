@@ -33,7 +33,7 @@ export const expressModule: MicroframeworkLoader = (settings: MicroframeworkSett
     app.use(Session(sessionSetting));
 
     // Run application to listen on given port
-    const server = app.listen(4200);
+    const server = app.listen(3000);
 
     console.log(`${process.memoryUsage().heapUsed / 1024 / 1024} MB on Intializing Express`);
 

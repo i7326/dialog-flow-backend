@@ -27,7 +27,9 @@ export class ConversationService {
 
       chatrequest.on('response', (response) => {
         if (response.result.action) {
-          this.handleAction(response.result).then((output) => { resolve(output); }).catch((error) => { reject(error); });
+          this.handleAction(response.result).then((output) => { 
+            resolve(output); 
+          }).catch((error) => { reject(error); });
         } else { resolve(response); }
       });
 
@@ -40,8 +42,12 @@ export class ConversationService {
     });
   }
 
-  private handleAction(result: any): Promise {
+  private handleAction(result: any): Promise<any> {
     if (result.action === 'input.search.course') return this.searchCourse(result.parameters);
+    return new Promise((resolve,reject) => {
+      console.log(result.fulfillment.speech);
+      if(result.fulfillment.speech) resolve({content: result.fulfillment.speech});
+    })
     // return new Promise((resolve, reject) => {
     //   if (result.action === 'input.search.course') {
     //     resolve(this.searchCourse(result.parameters));
@@ -69,7 +75,7 @@ export class ConversationService {
           });
         } else {
           school = $('#ctl00_ContentPlaceHolder1_Accordion1 span');
-          resolve($(school).text());
+          resolve({content: `We provide ${$(school).text().replace(' ',', ')} courses`});
         }
         let data = [];
         school.each((i, el) => {
@@ -101,7 +107,7 @@ export class ConversationService {
           })
           data.push({"school": $(el).text(),"course": course});
         })
-        resolve(data);
+        resolve({content: data, type: 'array'});
       }
       reject(error);
     });

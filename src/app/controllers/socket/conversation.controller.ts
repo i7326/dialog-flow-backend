@@ -19,7 +19,8 @@ export class ConversationController {
   @OnMessage('request')
   @EmitOnSuccess('response')
   protected handleConversation( @ConnectedSocket() socket: any, @MessageBody() message: any): any {
-    return this.conversationService.textRequest(message.text, socket.id);
+    console.log(message.content);
+    return this.conversationService.textRequest(message.content, socket.id);
     // this.scriptService.getScripts().then(scripts => { console.log(scripts); });
     // let f = () => this.scriptService.getScripts().then(scripts => scripts);
     // setTimeout(() => {console.log(f())}, 5000);
